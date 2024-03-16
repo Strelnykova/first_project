@@ -1,0 +1,102 @@
+ header {
+    background-color: pink;
+ }
+
+ .cont-head {
+    position: relative;
+ }
+
+ .red-line {
+    margin-top: 1px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: red;
+ }
+
+ h1 {
+    padding: 0 0 0 30px;
+    height: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ h2 {
+    padding: 0 0 0 60px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+ }
+
+ .container {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    /*перетворює контейнер на гнучкий */
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 10px 0;
+    margin: 30px 0;
+ }
+
+ img {
+    max-width: 50%;
+    margin-right: 20px;
+ }
+
+ .text {
+    flex: 1;
+    text-align: left;
+ }
+
+ .title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    height: 17px;
+ }
+
+ p:first-of-type {
+    margin-right: 10px;
+    margin-top: 5px;
+    text-indent: 20px;
+    font-size: 20px;
+ }
+
+ .next {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: rgb(10, 10, 235);
+    position: fixed;
+    right: 40px;
+
+ }
+
+ nav {
+    word-spacing: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    position: fixed;
+    top: 39px;
+    right: 20px;
+ }
+
+ footer {
+    background-color: rgb(57, 54, 54);
+    color: white;
+    padding: 30px;
+    
+    bottom: 0;
+    position: absolute;
+    width: 95%;
+    height: 80px;
+ }
+
+ footer p {
+    margin: 2px 0;
+    font-size: 22px;
+ }
+
+ body {
+    overflow-x: hidden;
+ }
